@@ -1,5 +1,11 @@
 export { createVerifierAgentRunner } from './agentVerifier';
 export {
+  coverageGaps,
+  readRequiredEvidence,
+  type RecordEvidenceParams,
+  VerifyEvidenceService,
+} from './evidenceService';
+export {
   type ExecuteVerifyParams,
   type VerifierAgentRunner,
   VerifyExecutorService,
@@ -13,4 +19,5 @@ export {
   type RepairSpawner,
   VerifyRepairService,
 } from './repairService';
+export { type GenerateReportParams, VerifyReporterService } from './reporter';
 export { VerifyStatusService } from './statusService';
